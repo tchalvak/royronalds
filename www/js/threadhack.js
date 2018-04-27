@@ -1,4 +1,4 @@
-/* Author: Roy Ronalds, BitLucid, Inc. http://bitlucid.com
+/* Author: Roy Ronalds, BitLucid, Inc. http://royronalds.com
 
 */
 

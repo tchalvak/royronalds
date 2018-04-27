@@ -1,4 +1,4 @@
-Repository for the code of [BitLucid Programming](http://bitlucid.com) http://bitlucid.com
+Repository for the code of [RoyRonalds.com](http://royronalds.com) http://royronalds.com
 
 This site structure is also useful as a template.
 
