@@ -1,4 +1,4 @@
-/* Author: Roy Ronalds, BitLucid, Inc. http://royronalds.com
+/* Author: Roy Ronalds, BitLucid Programming. http://royronalds.com
 
 */
 
@@ -67,6 +67,3 @@ $(function(){ // ON domload.
 	
 	
 }); // End of domload.
-
-
-
