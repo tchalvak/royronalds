@@ -1,0 +1,26 @@
+{
+  "name": "royronalds",
+  "version": "1.0.0",
+  "description": "The static front-end for royronalds.com",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest test",
+    "format": "prettier --write \"src/**/*.js\" \"www/*.html\" \"www/css/threadhack.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchalvak/royronalds.git"
+  },
+  "author": "Roy R.",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/tchalvak/royronalds/issues"
+  },
+  "homepage": "https://github.com/tchalvak/royronalds#readme",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
