@@ -1143,15 +1143,18 @@ p.accented {
 }
 #skills {
     box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
 }
 .skill-text {
     font-family: 'Ubuntu Condensed', sans-serif;
     box-sizing: border-box;
-    line-height: 2em;
+    line-height: 2rem;
+    font-size: 2rem;
     display: inline-block;
     width: 30%;
     text-align: right;
-    padding: 0 1em;
+    padding: 0 1rem;
     font-size: smaller;
 }
 .skill-bar {
@@ -1159,17 +1162,15 @@ p.accented {
     font-weight: 400;
     box-sizing: border-box;
     display: inline-block;
-    line-height: 2em;
+    line-height: 2rem;
+    font-size: 1.2rem;
     background-color: black;
     color: white;
-    padding: 0 1em;
-}
-.skill-bar:hover {
-    overflow: visible;
-    text-shadow: 3px 1px 3px #222;
+    padding: 0 0 0 1rem;
+    max-width: 65%;
 }
 .skill-bar.first {
-    width: 70%;
+    width: 65%;
     background-color: rgb(10, 10, 10);
 }
 .skill-bar.second {
