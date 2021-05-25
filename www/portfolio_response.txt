@@ -1,0 +1,15 @@
+Absolutely, happy to send over some links and sites.  Here is a partial list:
+
+- I coded, refactored, and led other coders on work on the https://shermanbrothers.com e-commerce website and ordering system for many years, as well as architecting it's infrastructure in the cloud.
+- I created creation of https://tershronalds.com as a serverless website using AWS cloudfront, and redoing from an older implementation.
+- I do the ongoing coding of the game logic of my legacy browser based game ninjawars.net & support for a few thousand users a month for approximately 10 years.
+
+- I created the one-off react/gatsby site for a presentation on AI that I was giving: https://ai.royronalds.com/
+- I also have a more in-depth application refactor to serverless react that I have been doing for a year and a half in my limited spare time that I could screenshare and discuss.
+
+As far as closed source work for large companies, most recently I did private work on full-blown design systems and component libraries in React fo both: https://chargebacks911.com/ and https://www.ellucian.com/, and the organization's websites may give a tiny view of the scale and quality of the projects that I worked on there (the homepages represent the work I did, but I worked on client-login web apps, not the homepages themselves).
+
+All of my open source projects have repositories available on github at https://github.com/tchalvak
+
+Let me know if there is any interest in more specifics on any of these,
+--Roy
