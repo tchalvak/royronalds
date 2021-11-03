@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "jest test",
-    "format": "prettier --write \"src/**/*.js\" \"www/*.html\" \"www/css/threadhack.css\" \"www/js/threadhack.js\""
+    "format": "prettier --write \"src/**/*.js\" \"www/*.html\" \"www/css/threadhack.css\" \"www/js/threadhack.js\"",
+    "serve": "npx serve www",
+    "browse": "xdg-open http://localhost:5000"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,7 @@
   },
   "homepage": "https://github.com/tchalvak/royronalds#readme",
   "devDependencies": {
-    "prettier": "^1.18.2",
-    "serve": "^11.3.2"
+    "prettier": "^2.4.1",
+    "serve": "^12.0.1"
   }
 }
