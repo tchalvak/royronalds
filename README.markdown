@@ -15,3 +15,20 @@ yarn test
 ## Other commands
 
 yarn run
+
+## Infrastructure
+
+On AWS Cloudfront:
+
+ - https://us-east-1.console.aws.amazon.com/cloudfront/v3/home?region=us-east-1#/distributions/E2A3KKT01N8DGV
+
+
+
+## Deploy
+
+```
+    aws sts get-caller-identity
+    cat ~/.aws/profiles | grep bitdog-dev
+    # Update ~/.aws/credentials as needed
+    ./deploy.sh
+```
