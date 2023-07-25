@@ -1,14 +1,14 @@
 /* Author: Roy Ronalds, BitLucid Programming. http://royronalds.com
-*/
+ */
 
 // Guarantee that there is a console to prevent errors while debugging.
 if (typeof console == 'undefined') {
-    console = { log: function() {} }
+    console = { log: function () {} }
 }
 
-$(function() {
+$(function () {
     // ON domload.
-    $('#other-sites-section').click(function() {
+    $('#other-sites-section').click(function () {
         $('#contact-footer').toggle()
     })
 
@@ -47,7 +47,7 @@ $(function() {
     }
 
     // Add click show/hide to the top nav elements.
-    $('nav a').click(function(elem) {
+    $('nav a').click(function (elem) {
         var target = $(this).attr('href')
         var $selected = $(target)
         $selected.show()
@@ -55,10 +55,8 @@ $(function() {
     })
 
     // Make the site search operate nicely.
-    var form = $('#site-search')
-        .show()
-        .find('form') // Show the hidden search area.
-    form.submit(function() {
+    var form = $('#site-search').show().find('form') // Show the hidden search area.
+    form.submit(function () {
         var searchval = $('[name=search]', form).val()
         var base = $('[name=base]', form)
         var baseval = base.val()

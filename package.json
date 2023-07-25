@@ -10,7 +10,8 @@
     "test": "jest test",
     "format": "prettier --write \"src/**/*.js\" \"www/*.html\" \"www/css/threadhack.css\" \"www/js/threadhack.js\"",
     "serve": "npx serve www",
-    "browse": "xdg-open http://localhost:5000"
+    "browse": "xdg-open http://localhost:5000",
+    "browse:repo": "xdg-open https://github.com/tchalvak/royronalds"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,9 @@
   },
   "homepage": "https://github.com/tchalvak/royronalds#readme",
   "devDependencies": {
+    "jest": "^29.6.1",
     "prettier": "^2.6.2",
     "serve": "^14.0.0"
-  }
+  },
+  "packageManager": "yarn@3.6.1"
 }
