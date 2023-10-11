@@ -5,6 +5,15 @@ vendor/*
 !vendor/.gitkeep
 vendor/
 
+# Yarn 2 files
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # Node files
 /node_modules
 
