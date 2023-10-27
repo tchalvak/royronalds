@@ -1339,3 +1339,6 @@ p.accented {
     display: inline-block;
     padding: 0.5em;
 }
+#devto-widget {
+   margin-bottom: 7rem;
+}
