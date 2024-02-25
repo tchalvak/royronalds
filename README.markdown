@@ -24,11 +24,11 @@ On AWS Cloudfront:
 
 
 
-## Deploy
+## Non-CI Deployment
 
 ```
     aws sts get-caller-identity
-    cat ~/.aws/profiles | grep bitdog-dev
+    cat ~/.aws/profiles | grep "-dev"
     # Update ~/.aws/credentials as needed
     ./deploy.sh
 ```
