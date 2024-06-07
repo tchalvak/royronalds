@@ -7,6 +7,12 @@ This site structure is also useful as a template.
 yarn set version stable
 yarn install
 
+## View PRs
+
+make browse-repo
+OR
+yarn browse:repo
+
 ## Test
 
 yarn test
@@ -27,8 +33,5 @@ On AWS Cloudfront:
 ## Non-CI Deployment
 
 ```
-    aws sts get-caller-identity
-    cat ~/.aws/profiles | grep "-dev"
-    # Update ~/.aws/credentials as needed
-    ./deploy.sh
+    make deploy
 ```
